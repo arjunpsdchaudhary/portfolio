@@ -90,7 +90,7 @@ export const portfolioData = {
     },
     {
       id: "lms",
-      title: "EduSphere LMS",
+      title: "LearnHub LMS",
       subtitle: "Role-Based Learning Management System",
       category: "web",
       summary: "Full-featured LMS portal with dedicated Teacher and Student workflows secured via JWT tokens.",
@@ -113,11 +113,10 @@ export const portfolioData = {
       category: "mobile",
       summary: "Feature-rich Java mobile chat application with reliable real-time push notifications and socket messaging.",
       description: "A highly responsive mobile messaging application built natively in Java. Designed for seamless real-time communication, it features socket-based message delivery, user presence indicators, and background notification alerts that keep users connected even when the application is minimized or inactive.",
-      technologies: ["Java App Development", "Socket Programming", "Background Services", "Android Notifications", "SQL Lite"],
+      technologies: ["Java App Development", "Background Services", "Android Notifications"],
       features: [
-        "Instantaneous two-way messaging with low latency sockets",
+        "Instantaneous two-way messaging with low latency",
         "Reliable background notification delivery system",
-        "User online/offline status indicators and read receipts",
         "Secure user authentication and message persistence",
         "Clean, intuitive material-design mobile user interface"
       ],
