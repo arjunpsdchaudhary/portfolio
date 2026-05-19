@@ -74,8 +74,8 @@ export const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
             &copy; {new Date().getFullYear()} Arjun Prasad Chaudhary. All rights reserved.
           </p>
           <p className="flex items-center gap-1.5 text-slate-400">
-            <span>Built with Next.js & React Flow spirit in</span>
-            <span className="text-white font-bold">Nepal 🇳🇵</span>
+            <span>Built with Next.js in</span>
+            <span className="text-white font-bold">Nepal</span>
             <Heart size={14} className="text-red-500 fill-red-500 animate-pulse inline ml-0.5" />
           </p>
         </div>

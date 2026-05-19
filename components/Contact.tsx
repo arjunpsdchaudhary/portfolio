@@ -144,12 +144,12 @@ export const Contact: React.FC = () => {
                     <h3 className="text-xl font-bold text-white flex items-center gap-2">
                       <MessageSquare size={20} className="text-blue-400" /> Send a Message
                     </h3>
-                    <span className="text-[11px] text-slate-400 font-mono">Secure Form</span>
+                    {/* <span className="text-[11px] text-slate-400 font-mono">Secure Form</span> */}
                   </div>
 
                   {/* Template Picker */}
                   <div>
-                    <label className="block text-xs font-mono uppercase text-slate-400 mb-2 font-semibold">Quick Message Templates</label>
+                    {/* <label className="block text-xs font-mono uppercase text-slate-400 mb-2 font-semibold">Quick Message Templates</label> */}
                     <div className="flex flex-wrap gap-2">
                       {[
                         { title: 'Job Offer', subject: 'Full-Time Full-Stack Role', msg: 'Hi Arjun, we were thoroughly impressed by your TreeOrg and LMS projects. We have a full-time role open in our engineering team.' },

@@ -55,11 +55,11 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, setActiveSection 
           onClick={() => handleNavClick('hero')}
           className="flex items-center gap-3 group text-left cursor-pointer"
         >
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-purple-600 p-0.5 flex items-center justify-center shadow-lg shadow-blue-500/20 group-hover:scale-105 transition-transform">
+          {/* <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-purple-600 p-0.5 flex items-center justify-center shadow-lg shadow-blue-500/20 group-hover:scale-105 transition-transform"> */}
             {/* <div className="w-full h-full bg-[#0b0f19] rounded-[10px] flex items-center justify-center text-white font-mono font-bold text-lg"> */}
-              <Image src={pic} alt='AC' className="w-full h-full bg-[#0b0f19] rounded-[10px] flex items-center justify-center text-white font-mono font-bold text-lg bg-cover my-0.5"/>
+              <Image src={pic} alt='AC' className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-purple-600 p-0.5 flex items-center justify-center shadow-lg shadow-blue-500/20 group-hover:scale-105 transition-transform" />
             {/* </div> */}
-          </div>
+          {/* </div> */}
           <div>
             <div className="font-bold text-white tracking-tight flex items-center gap-1.5 text-base sm:text-lg">
               Arjun P. Chaudhary

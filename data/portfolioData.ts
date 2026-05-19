@@ -48,7 +48,6 @@ export const portfolioData = {
         { name: "Next.js API", level: 90, color: "bg-neutral-900 text-neutral-300 border-neutral-700", description: "RESTful endpoints, middleware, serverless functions, rate limiting" },
         { name: "MongoDB", level: 88, color: "bg-emerald-950 text-emerald-400 border-emerald-800", description: "Mongoose ODM, schemas, indexing, aggregation pipelines" },
         { name: "Neo4j", level: 85, color: "bg-blue-950 text-indigo-400 border-blue-800", description: "Cypher query language, graph data modeling, nodes & relationships" },
-        { name: "Java Backend", level: 86, color: "bg-red-950 text-red-400 border-red-800", description: "Object-Oriented Programming, sockets, concurrency, multithreading" }
       ]
     },
     {

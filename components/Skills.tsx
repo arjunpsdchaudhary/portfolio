@@ -33,9 +33,9 @@ export const Skills: React.FC = () => {
           <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
             My <span className="bg-gradient-to-r from-blue-400 via-indigo-400 to-emerald-400 bg-clip-text text-transparent">Technical Background</span>
           </h2>
-          <p className="mt-4 text-slate-300 text-base sm:text-lg max-w-2xl mx-auto">
+          {/* <p className="mt-4 text-slate-300 text-base sm:text-lg max-w-2xl mx-auto">
             Click on any technology below to inspect specific use-cases and architectural highlights from my full-stack projects.
-          </p>
+          </p> */}
 
           {/* Filter Tabs */}
           <div className="flex flex-wrap items-center justify-center gap-2 mt-8">
@@ -71,7 +71,7 @@ export const Skills: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-xl sm:text-2xl font-bold text-white">{category.title}</h3>
-                  <p className="text-xs text-slate-400 font-mono tracking-wide">Hover or click items to view architectural details</p>
+                  {/* <p className="text-xs text-slate-400 font-mono tracking-wide">Hover or click items to view architectural details</p> */}
                 </div>
               </div>
 
